@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#script to find git repositories when it becomes hard to keep track of all git repositories
+#Script to find git repositories when it becomes bit hard to keep track of cloned/modifed repos.
+#does not handle space in path very well.
 #takes $1 as root path to search, default= $PWD
 
 #read location or use current dir
